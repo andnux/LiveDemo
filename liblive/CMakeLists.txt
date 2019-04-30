@@ -21,5 +21,4 @@ add_library(live SHARED ${CPP} ${AAC} ${RTMP})
 target_link_libraries(live log z
         ${ABI}/libx264.a
         ${ABI}/libssl.a
-        ${ABI}/libcrypto.a
-        )
+        ${ABI}/libcrypto.a)
